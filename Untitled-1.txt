@@ -1,0 +1,19 @@
+include <iostream>
+using namespace std;
+class Rectangle {
+public:
+    int length;
+    int width;
+
+};
+
+int main() {
+    Rectangle rect;
+    rect.length = 15;
+    rect.width = 13;
+
+    int area = rect.length * rect.width;
+    cout<<area;
+
+    return 0;
+}

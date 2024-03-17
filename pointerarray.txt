@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {   
+    int arr[] = {10, 20, 30, 40, 50};
+       int *ptr = arr; 
+         int *ptr2 = ptr + 3; 
+           int result = ptr2 - ptr; 
+             cout << result; 
+               return 0;}
+
+

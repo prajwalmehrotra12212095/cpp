@@ -7,4 +7,3 @@ using namespace std;
     cout<<"value of x: "<<x<<" and y: "<<y;
     return 0;
 }
-/

@@ -7,4 +7,3 @@ cout<<a<<b;
 }
 // read evertything about different vector set priority queue stack and like this 
 // everything insert swap replace find count etc 
-.

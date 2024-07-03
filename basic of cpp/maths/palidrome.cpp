@@ -9,4 +9,4 @@ int main(){
         rev = (rev*10)+last;
     }
     cout<<rev;
-}
+} 

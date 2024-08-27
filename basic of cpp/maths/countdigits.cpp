@@ -15,8 +15,8 @@ int main() {
     cout << "Enter a number: ";
     cin >> n;
     
-    int digits = countDigits(n);
-    cout << "Number of digits: " << digits << endl;
+    countDigits(n);
+    cout << "Number of digits: " << countDigits(n) << endl;
     
     return 0;
 }

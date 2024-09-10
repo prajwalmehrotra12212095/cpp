@@ -26,3 +26,4 @@ int main() {
     int gcd = findGcd(x, y);
     cout << "GCD of " << x << " and " << y << " is " << gcd << endl;
     return 0;
+}

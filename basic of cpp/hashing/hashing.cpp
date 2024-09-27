@@ -27,6 +27,7 @@ int main() {
         // Fetch and display the hash value
         cout << hash[number] << endl;  // Output the hash value for this number 
     }
+    
 
     return 0;
 }

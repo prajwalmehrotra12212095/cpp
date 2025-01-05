@@ -49,4 +49,3 @@ cout<<minimum<<endl;
 return 0;
 
 }
-/

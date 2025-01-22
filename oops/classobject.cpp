@@ -1,25 +1,76 @@
+// #include<bits/stdc++.h>
+// using namespace std;
+// class Hero{
+
+// //properties
+
+// int health;
+
+// };
+
+// int main(){
+
+// //object
+
+// Hero h1;
+// cout<<sizeof(h1);
+// return 0;
+// }
+
+// #include<bits/stdc++.h>
+// using namespace std;
+// class Hero{
+// public:
+// //properties
+// int health;
+// private:
+// char level;
+
+// void print(){
+//     cout<<level<<endl;
+// }
+// };
+
+// int main(){
+
+// //object
+
+// Hero h1;
+//h1.health= 70;
+// cout<<h1.health;
+// return 0;
+// }
+
+
+//getter setter
+
+
 #include<bits/stdc++.h>
 using namespace std;
-class Teacher{
-    //properties
-    public:
-     string name;
-     string dept;
-     string subject;
-     double salary;
+class Hero{
+private:
+//properties
+int health;
+public:
+char level;
 
-//methods
-    //  void ChangeDepartment(string newDept){
-    //     dept = newDept;
-    //  } 
+void print(){
+    cout<<level<<endl;
+}
+int GetHealth(){
+    return health;
+}
+void setHealth(int h){
+    health = h;
+}
 };
-int main(){
-    Teacher t1;
-    t1.name = "himan";
-    t1.subject = "c++";
-    t1.dept="cs";
-    t1.salary= 20000.0;
-    cout<<t1.name<<endl;
-    return 0;
 
-    }
+int main(){
+
+//object
+
+Hero h1;
+h1.setHealth(70);
+cout<<h1.GetHealth();
+return 0;
+}

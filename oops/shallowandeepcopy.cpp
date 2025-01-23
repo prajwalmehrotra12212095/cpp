@@ -28,8 +28,8 @@ void setName(char name[]){
 
 int main(){
 Hero h1;
-hero1.setHealth(12);
-char name[7] = "prajwal"
+h1.setHealth(12);
+char name[7] = "prajwal";
 
 return 0;
-}
+} 

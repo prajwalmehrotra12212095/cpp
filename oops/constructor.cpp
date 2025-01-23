@@ -1,59 +1,93 @@
-#include <bits/stdc++.h>
+// #include<bits/stdc++.h>
+// using namespace std;
+// class Hero{
+// private:
+// //properties
+// int health;
+// public:
+// char level;
+
+// //constructor 
+// Hero(){
+//     cout<<"constructor called"<<endl;
+// }
+
+// //parammetrized constructor
+
+// Hero(int health){
+//     this -> health = health;
+// }
+
+
+// void print(){
+//     cout<<level<<endl;
+// }
+// int GetHealth(){
+//     return health;
+// }
+// void setHealth(int h){
+//    this -> health = h;
+// }
+// };
+
+// int main(){
+
+//     //object created statically
+// Hero ramesh(10);
+
+// //object created dynamically
+// cout<<&ramesh<<endl;
+// Hero *h = new Hero;
+// return 0;
+// }
+
+
+//copy constuctor
+
+
+#include<bits/stdc++.h>
 using namespace std;
-
-class Teacher {
+class Hero{
 private:
-    double salary;
-
+//properties
+int health;
 public:
-    // non-parameritized Constructor
-    // Teacher() {
-    //     dept = "computer science";
-    //     cout << "Hey, I am a constructor" << endl;
-    // }
+char level;
 
-    //parameterized
-Teacher(string n,string d,string s,double sal){
-    name = n;
-    dept = d;
-    subject = s;
-    salary = sal;
+//constructor 
+Hero(){
+    cout<<"constructor called"<<endl;
 }
 
-    // Public member variables
-    string name;
-    string dept;
-    string subject;
-
-    // Setter for salary
-    // void setSalary(double s) {
-    //     salary = s;
-    // }
-
-    // // Getter for salary
-    // double getSalary() {
-    //     return salary;
-    // }
-void changeDept(string newDept){
-    dept = newDept;
+void print(){
+    cout<<level<<endl;
+    cout<<this->health<<endl;
 }
-void getInfo(){
-    cout<<"name : "<<name<<endl;
-    cout<<"subject: "<<subject<<endl; 
+int GetHealth(){
+    return health;
 }
-
+void setHealth(int h){
+   this -> health = h;
+}
 };
 
-int main() {
-   
-    Teacher t1("prajw","cs","c++",20000);
-    // t1.name = "Himan";
-    // t1.subject = "C++";
-    // t1.setSalary(20000);
-    // cout << "Name: " << t1.name << endl;
-    // cout << "Subject: " << t1.subject << endl;
-    // cout << "Department: " << t1.dept << endl;
-    // cout << "Salary: " << t1.getSalary() << endl;
-t1.getInfo();
-    return 0;
+int main(){
+
+Hero suresh;
+suresh.setHealth(70);
+
+S.print();
+
+Hero ristesh(S);
+
+//copy constructor
+
+R.print();
+
+//ristesh.health = suresh.health;
+   return 0;
 }
+
+
+
+

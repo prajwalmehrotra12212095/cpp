@@ -52,13 +52,6 @@ qs(arr,s,p-1);
  qs(arr,p+1,e);
   
 }
-
-
-
-
-
-
-
 int main(){
     int arr[5] ={1,4,6,3,5};
     int n = 5;

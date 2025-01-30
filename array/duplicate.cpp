@@ -14,6 +14,11 @@ int main() {
             i++;
         }
     }
-    return i++;
+    for (int k = 0; k <= i; k++) {
+        cout << arr[k] << " ";
+    }
+    cout << endl;
+
+    return 0;
 }
 

@@ -22,4 +22,3 @@ if(arr[i]>slarger && arr[i]!=larger){
      }
      cout<<slarger<<endl;
 }
-/

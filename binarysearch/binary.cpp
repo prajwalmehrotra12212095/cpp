@@ -35,3 +35,4 @@ int main(){
     cout<<binarySearch(arr,n,key);
    // cout<<"index is"<<index<<endl;
 }
+//

@@ -14,7 +14,9 @@ int main() {
         swap(str[start], str[end]);
         start++;
         end--;
-    }
+    } 
+
+    // reverse(str.begin(),str.end());
 
     cout << str;
     return 0;
